@@ -18,8 +18,7 @@ public class LoginSteps {
 
 	@Then("page title should be {string}")
 	public void page_title_should_be(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    System.out.println("Title of the page is "+string);
 	}
 
 	@Then("forgot your password link should be displayed")
