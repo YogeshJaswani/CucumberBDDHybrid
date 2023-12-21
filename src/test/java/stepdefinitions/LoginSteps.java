@@ -8,14 +8,12 @@ public class LoginSteps {
 
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    System.out.println("User is on landing page");
 	}
 
 	@When("user gets the title of the login page")
 	public void user_gets_the_title_of_the_login_page() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    System.out.println("User gets title of page");
 	}
 
 	@Then("page title should be {string}")
