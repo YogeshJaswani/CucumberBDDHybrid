@@ -39,7 +39,7 @@ public class LoginSteps {
 
 	@When("user clicks on Login button")
 	public void user_clicks_on_login_button() {
-	   System.out.println("User succesfully clicked on login button);
+	   System.out.println("User succesfully clicked on login button");
 	}
 
 	@Then("user gets the title of the home page")
