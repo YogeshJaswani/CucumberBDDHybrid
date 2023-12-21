@@ -28,9 +28,8 @@ public class LoginSteps {
 	}
 
 	@When("user enters username {string}")
-	public void user_enters_username(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	public void user_enters_username(String username) {
+	    System.out.println("user name is "+ username);
 	}
 
 	@When("user enters password {string}")
