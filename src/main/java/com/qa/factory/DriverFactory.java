@@ -13,7 +13,7 @@ public class DriverFactory {
 	public static ThreadLocal<WebDriver> tlDriver= new ThreadLocal<WebDriver>();
 	
 	
-	public WebDriver init_driver(String browser)
+	public   WebDriver init_driver(String browser)
 	{
 		System.out.println("Browser name is "+browser);
 		if(browser.equalsIgnoreCase("chrome"))
